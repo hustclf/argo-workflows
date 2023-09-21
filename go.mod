@@ -74,7 +74,11 @@ require (
 	upper.io/db.v3 v3.8.0+incompatible
 )
 
-require github.com/google/s2a-go v0.1.0 // indirect
+require (
+	github.com/google/s2a-go v0.1.0 // indirect
+	github.com/parnurzeal/gorequest v0.2.16 // indirect
+	moul.io/http2curl v1.0.1-0.20190925090545-5cd742060b0e // indirect
+)
 
 require (
 	cloud.google.com/go v0.110.0 // indirect
